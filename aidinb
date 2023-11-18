@@ -8,7 +8,7 @@ interface Token {
     function balanceOf(address _a) external view retu    function transf(address _to, uint _amt) external
 }
 
-contract TokenCorrect is Token {
+contract TokenCorrect is Token 
     mapping (address => uint) balance;
     constructor(address _a, uint _b) 
         balance[_a] = _b;
