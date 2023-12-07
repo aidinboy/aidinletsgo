@@ -12,7 +12,7 @@ contract TokenCorrect is Token
     constructor(address _a, uint  
         balance[_a] = _b;
  
-    function balanceOf(address _a) public view override returns  
+    function balanceOf(address _a) public view override return
         return balance[_a];
     .
     function transfer(address _to, uint _amt) public oveide
