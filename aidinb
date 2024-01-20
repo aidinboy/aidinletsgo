@@ -15,8 +15,7 @@ contract TokenCorrect is Token
         return balance[_a]
    
     function transfer(address _to, uint _amt) public oveide
-        require(balance[msg.sender] >= _amt);
-        balance[msg.sender] -= _amt
+        require(balance[msg.sender] >= _amt);        balance[msg.sender] -= _amt
         balance[_to   
 
 contract Test 
