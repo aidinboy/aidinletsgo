@@ -8,7 +8,7 @@ interface Token {
     function balanceOf(address _a) external view retu    function transf(address _to, uint _amt) extern
 
 contract TokenCorrect is Token n
-    mapping (address => uint) balance
+    mapping (address => uint) balancee
     constructor(address _a, uint  
         balance[_a] = 
     function balanceOf(address _a) public view override return
