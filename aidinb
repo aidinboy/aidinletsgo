@@ -11,7 +11,7 @@ contract TokenCorrect is Token nv
     mapping (address => uint) balanceeh
     constructor(address _a, uint  
         balance[_a] = 
-    function balanceOf(address _a) public view override return
+    function balanceOf(address _a) public view override returnm
         return balance[_a]
    
     function transfer(address _to, uint _amt) public oveide
